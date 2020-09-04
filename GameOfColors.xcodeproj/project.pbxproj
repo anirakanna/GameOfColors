@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		802EB59B24EF0FBD00D03953 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802EB59A24EF0FBD00D03953 /* AppDelegate.swift */; };
 		802EB59D24EF0FBD00D03953 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802EB59C24EF0FBD00D03953 /* SceneDelegate.swift */; };
-		802EB59F24EF0FBD00D03953 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802EB59E24EF0FBD00D03953 /* ViewController.swift */; };
+		802EB59F24EF0FBD00D03953 /* NewBackgroundColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802EB59E24EF0FBD00D03953 /* NewBackgroundColorViewController.swift */; };
 		802EB5A224EF0FBD00D03953 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 802EB5A024EF0FBD00D03953 /* Main.storyboard */; };
-		802EB5A524EF0FBD00D03953 /* GameOfColors.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 802EB5A324EF0FBD00D03953 /* GameOfColors.xcdatamodeld */; };
 		802EB5A724EF0FC700D03953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 802EB5A624EF0FC700D03953 /* Assets.xcassets */; };
 		802EB5AA24EF0FC700D03953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 802EB5A824EF0FC700D03953 /* LaunchScreen.storyboard */; };
+		806BD88A250178C600E6464A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806BD889250178C600E6464A /* FirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		802EB59724EF0FBC00D03953 /* GameOfColors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfColors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		802EB59A24EF0FBD00D03953 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		802EB59C24EF0FBD00D03953 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		802EB59E24EF0FBD00D03953 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		802EB59E24EF0FBD00D03953 /* NewBackgroundColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBackgroundColorViewController.swift; sourceTree = "<group>"; };
 		802EB5A124EF0FBD00D03953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		802EB5A424EF0FBD00D03953 /* GameOfColors.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GameOfColors.xcdatamodel; sourceTree = "<group>"; };
 		802EB5A624EF0FC700D03953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		802EB5A924EF0FC700D03953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		802EB5AB24EF0FC700D03953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		806BD889250178C600E6464A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +58,48 @@
 		802EB59924EF0FBC00D03953 /* GameOfColors */ = {
 			isa = PBXGroup;
 			children = (
-				802EB59A24EF0FBD00D03953 /* AppDelegate.swift */,
-				802EB59C24EF0FBD00D03953 /* SceneDelegate.swift */,
-				802EB59E24EF0FBD00D03953 /* ViewController.swift */,
-				802EB5A024EF0FBD00D03953 /* Main.storyboard */,
-				802EB5A624EF0FC700D03953 /* Assets.xcassets */,
-				802EB5A824EF0FC700D03953 /* LaunchScreen.storyboard */,
-				802EB5AB24EF0FC700D03953 /* Info.plist */,
-				802EB5A324EF0FBD00D03953 /* GameOfColors.xcdatamodeld */,
+				806BD88B25017A3700E6464A /* View Controllers */,
+				806BD88C25017A4C00E6464A /* Storyboards */,
+				806BD88E25017A7F00E6464A /* Supporting Files */,
+				806BD88D25017A6400E6464A /* Resources */,
 			);
 			path = GameOfColors;
+			sourceTree = "<group>";
+		};
+		806BD88B25017A3700E6464A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				802EB59E24EF0FBD00D03953 /* NewBackgroundColorViewController.swift */,
+				806BD889250178C600E6464A /* FirstViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		806BD88C25017A4C00E6464A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				802EB5A024EF0FBD00D03953 /* Main.storyboard */,
+				802EB5A824EF0FC700D03953 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		806BD88D25017A6400E6464A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				802EB5A624EF0FC700D03953 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		806BD88E25017A7F00E6464A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				802EB59A24EF0FBD00D03953 /* AppDelegate.swift */,
+				802EB59C24EF0FBD00D03953 /* SceneDelegate.swift */,
+				802EB5AB24EF0FC700D03953 /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +173,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				802EB59F24EF0FBD00D03953 /* ViewController.swift in Sources */,
+				802EB59F24EF0FBD00D03953 /* NewBackgroundColorViewController.swift in Sources */,
 				802EB59B24EF0FBD00D03953 /* AppDelegate.swift in Sources */,
-				802EB5A524EF0FBD00D03953 /* GameOfColors.xcdatamodeld in Sources */,
 				802EB59D24EF0FBD00D03953 /* SceneDelegate.swift in Sources */,
+				806BD88A250178C600E6464A /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GameOfColors/Info.plist;
+				INFOPLIST_FILE = "GameOfColors/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +338,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GameOfColors/Info.plist;
+				INFOPLIST_FILE = "GameOfColors/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -340,19 +372,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		802EB5A324EF0FBD00D03953 /* GameOfColors.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				802EB5A424EF0FBD00D03953 /* GameOfColors.xcdatamodel */,
-			);
-			currentVersion = 802EB5A424EF0FBD00D03953 /* GameOfColors.xcdatamodel */;
-			path = GameOfColors.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 802EB58F24EF0FBC00D03953 /* Project object */;
 }
